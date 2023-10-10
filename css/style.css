@@ -19,7 +19,7 @@ body {
 
 .cman-cman{
      
-    border-bottom: solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
     text-decoration: none;
 
 }
@@ -34,7 +34,7 @@ body {
 
 }
 
-.extra-container{
+.container{
 
     width: 1158px;
     margin: 0 auto ;
@@ -75,6 +75,7 @@ body {
 .links-names{
 
     padding: 24px 0 24px;
+    gap:40px;
 
 }
 
@@ -174,9 +175,7 @@ body {
 
 
 .main-section {
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+    padding: 188px 0;
     background: var(--NAVY-BLUE, #2E2F42);
 
     
@@ -188,8 +187,8 @@ body {
 
 
 .main-name {
-    padding: 188px 0 0 0;
-    width: 496px;
+ 
+    max-width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
     font-family: Roboto;
@@ -204,8 +203,12 @@ body {
 }
 
 
-.order-service {
+button  {
     
+    border:none;
+    display:block;
+    min-width:169px;
+    height:56px;
     color: var(--WHITE, #FFF);
   /* Button Text */
     font-family: "Roboto", sans-serif;
