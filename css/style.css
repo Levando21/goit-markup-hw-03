@@ -19,13 +19,63 @@ body {
 
 .cman-cman{
      
-    
+    border-bottom: solid #e7e9fc;
     text-decoration: none;
 
 }
 
-.pedro-pablo {
 
+.header-container{
+
+
+    display:flex;
+    
+
+
+}
+
+.extra-container{
+
+    width: 1158px;
+    margin: 0 auto ;
+    padding: 0 15px 0 15px ;
+
+}
+
+.navig-header{
+
+
+    display:flex;
+    align-items:center;
+
+}
+
+
+.info{
+
+    display:inline-flex;
+    gap:30px;
+
+}
+
+
+.header-types{
+
+     padding: 24px 0 24px;
+
+}
+
+.links{
+
+   display: inline-flex;
+   gap:40px;
+
+}
+
+
+.pedro-pablo {
+    
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -131,6 +181,7 @@ body {
 
 
 .main-name {
+    padding: 188px 0 0 0;
     width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
