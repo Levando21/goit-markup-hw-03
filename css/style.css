@@ -53,24 +53,31 @@ body {
 
 .info{
 
-    display:inline-flex;
+    display:flex;
     gap:30px;
-
+    margin-right: 332px;
 }
 
 
 .header-types{
 
-     padding: 24px 0 24px;
+    padding: 24px 0 24px;
 
 }
 
-.links{
+.links-list{
 
-   display: inline-flex;
+   display: flex;
    gap:40px;
 
 }
+
+.links-names{
+
+    padding: 24px 0 24px;
+
+}
+
 
 
 .pedro-pablo {
