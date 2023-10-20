@@ -258,6 +258,7 @@ button, select{
 
 }
 
+
 .visually-hidden{
 
     position: absolute;
@@ -300,6 +301,7 @@ button, select{
     font-size: 20px;
     font-weight: 500;
     color: #2e2f42;
+    
     margin-bottom: 8px;
 
 
