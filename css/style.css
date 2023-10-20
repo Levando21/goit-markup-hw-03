@@ -1,7 +1,12 @@
 
 
 
+*,
+::before,
+::after{
 
+    box-sizing: border-box;
+}
 
 
 body {
@@ -80,6 +85,7 @@ body {
    text-decoration:none;
    line-height: 1.17 
 }
+
 
 ul {
 
@@ -308,22 +314,19 @@ button, select{
 
 /*section 3*/
 
-.generel-gavs {
+.section-three {
 
     
-   
-    width: 1440px;
-    height: 732px;
-    flex-shrink: 0;
-    margin-top: 120px; 
+    
     background: var(--CLOUD, #F4F4FD);
+    padding: 120px 0;
+
 
 }
 
 
 .team {
 
-    padding-top: 120px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -335,26 +338,34 @@ button, select{
     letter-spacing: 0.72px;
     text-transform: capitalize;
     line-height: 1.11;
+
+    margin-bottom: 72px;
+
+
 }
 
+
 .liudi{
-    gap: 30px;
+
+    gap: 24px;
+    display:flex;
+    align-items: center;
+    
+
+
 }
 
 
 .list-part {
    
     
-    margin-left:156px ;
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    padding-bottom: 0px;
+    align-items: center; 
+
+    width: calc((100% - 72px) / 4); 
 
 
 }
@@ -362,15 +373,14 @@ button, select{
 
 
 
-.contaainer{
+.worker-container{
     
     
     display: flex;
-    width: 232px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 32px 0;
 
 }
 
@@ -379,7 +389,7 @@ button, select{
 .name-bame {
 
     color: var(--NAVY-BLUE, #2E2F42);
-   text-align: center;
+  
    /* Header 3 */
    font-family: Roboto;
    font-size: 20px;
@@ -388,14 +398,16 @@ button, select{
    line-height: 1.2; /* 120% */
    letter-spacing: 0.02em;
 
+   text-align: center;
+   margin-bottom: 8px;
+
 }
 
 
 .stelle{
 
-   padding-top: 8px;
+   
    color: var(--SLATE, #434455);
-   text-align: center;
    /* Body */
    font-family: Roboto;
    font-size: 16px;
@@ -403,6 +415,9 @@ button, select{
    font-weight: 400;
    line-height: 1.5; /* 150% */
    letter-spacing: 0.02em;
+
+   text-align: center;
+   margin-top: 8px;
 }
 
 
@@ -411,20 +426,20 @@ button, select{
 
 
 
-.letsgo {
+.section-four{
     
     align-items: center;
-    margin-top: 120px;
+    padding: 120px 0;
     width: 1128px;
     height: 1000px;
     flex-shrink: 0; 
     
 }
 
-.last-section-name{
+
+.section-four-headline{
     
     color: var(--NAVY-BLUE, #2E2F42);
-    text-align: center;
     /* Header 2 */
     font-family: Roboto;
     font-size: 36px;
@@ -433,6 +448,8 @@ button, select{
     text-transform: capitalize;
     line-height: 1.11;
 
+    text-align: center;
+    margin-bottom: 72px;
 
 }
 
@@ -443,12 +460,15 @@ button, select{
     width: 1128px;
     height: 1000px;
     flex-shrink: 0;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+
     
 
 }
-
-
 
 
 
@@ -464,7 +484,12 @@ button, select{
     flex-shrink: 0;   
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
+    width: calc((100% - 48px) / 3);
+
+
 }
+
+
 
 
 .kartinka{
@@ -473,6 +498,23 @@ button, select{
     height: 300px;
     flex-shrink: 0;
 }
+
+
+
+
+.last-section-container{
+
+    
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none; 
+
+     
+}
+
+
+
+
 
 
 .card-name{
@@ -489,6 +531,9 @@ button, select{
 
 }
 
+
+
+
 .card-solve{
   
     color: var(--SLATE, #434455);
@@ -500,6 +545,11 @@ button, select{
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
+
+
+
+
+
 
 
 
