@@ -33,6 +33,14 @@ img{
 }
 
 
+ 
+p,h1,h2,h3,h4,h5,h6 {
+
+    margin:0;
+  
+}
+  
+
 
 
 
@@ -119,6 +127,7 @@ ul {
 
     list-style:none;
     padding: 0;
+    margin:0;
 
 }
 
@@ -481,8 +490,6 @@ button, select{
 .workspace {
 
     margin-top: 72px;
-    width: 1128px;
-    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -497,15 +504,7 @@ button, select{
 
 .project-card{
 
-    display: flex;
-    width: 360px;
-    height: 420px;
     padding-bottom: 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    flex-shrink: 0;   
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 
     width: calc((100% - 48px) / 3);
