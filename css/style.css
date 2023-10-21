@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+
 :root{
     --primary-brand: #4d5ae5;
     --pressed-state: #404bbf;
@@ -23,6 +25,8 @@
     --modal-background: #fcfcfc;
 }
 
+
+
 img{
 
     display: block;
@@ -34,6 +38,7 @@ img{
 
 
 body {
+
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background: #FFF;
