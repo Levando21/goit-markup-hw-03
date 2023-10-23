@@ -70,6 +70,7 @@ body {
 
 
     display:flex;
+    align-items: center;
     
 
 
@@ -506,9 +507,8 @@ button, select{
 
 .project-card{
 
-    padding-bottom: 0px;
+    
     background: var(--WHITE, #FFF);
-
     width: calc((100% - 48px) / 3);
 
 
